@@ -56,6 +56,14 @@
     \end{tabular*}\vspace{-6pt}
 }
 
+\newcommand{\ressubheadingext}[6]{
+    \begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{#3} & \textit{#4} \\
+        \textit{#5} & \textit{#6} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
 
 %-----------------------------------------------------------
 \begin{document}
@@ -68,7 +76,7 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{itemize}
     \item
-        \ressubheading{Beijing Normal University}{Beijing}{B.S. Computer Science, M.S. Computer Software and Theory}{2007 - 2014}
+        \ressubheadingext{Beijing Normal University}{Beijing}{B.S. Computer Science}{2007 - 2011}{M.S. Computer Software and Theory}{2011 - 2014}
         \begin{itemize}
             \resitem{Student coach of BNU ACM/ICPC team}
             \resitem{Organizer and problem provider of BNU Computer Programming Contest}
